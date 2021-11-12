@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Coffee,Cafe,Soi5,Soi5Cafe,NakhonPathom">
+    <meta name="description" content="">
+    <title>Soi 5 Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d8133ae46.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5,30,5" stroke="#FFD180" stroke-width="3" />
+                    <path d="M0,14,30,14" stroke="#FFD180" stroke-width="3" />
+                    <path d="M0,23,30,23" stroke="#FFD180" stroke-width="3" />
+                </svg>
+            </a>
+        </span>
+        <ul class="navbar-nav">
+            <li><a href="#"><i class="fas fa-home"></i> หน้าหลัก</a></li>
+            <li><a href="#"><i class="fas fa-info"></i> เกี่ยวกับร้าน</a></li>
+            <li><a href="#"><i class="fas fa-utensils"></i> เมนูแนะนำ</a></li>
+            <li><a href="#"><i class="fas fa-shopping-basket"></i> สั่งอาหาร</a></li>
+        </ul>
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+        <a href="#">หน้าหลัก</a>
+        <a href="#">เกี่ยวกับร้าน</a>
+        <a href="#">เมนูแนะนำ</a>
+        <a href="#">สั่งอาหาร</a>
+    </div>
+    <h1 class="brand animate__animated animate__swing"><i class="fas fa-pizza-slice"></i> Soi 5 Cafe</h1>
+    <div class="wrapper">
+            <section class="top-container">
+                    <header class="showcase animate__animated animate__zoomIn">
+                        <h1>ความอร่อยใกล้บ้านคุณ</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam aliquid reiciendis veritatis et temporibus facilis inventore magnam. Excepturi, quibusdam nulla!</p>
+                        <a href="#" class="btn">อ่านเพิ่มเติม</a>
+                    </header>
+                    <div class="top-box top-box-a animate__animated animate__flipInY">
+                        <h4>อาหารเช้า เริ่มต้นชุดละ</h4>
+                        <p class="price">฿49</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                    <div class="top-box top-box-b animate__animated animate__flipInY">
+                            <h4>อาหารชุดมื้อเย็น (2-4 ท่าน)</h4>
+                            <p class="price">฿399</p>
+                            <a href="#" class="btn">Buy Now</a>
+                    </div>
+                    <div class="top-box top-box-c animate__animated animate__flipInY">
+                            <h4>กาแฟสด</h4>
+                            <p class="price">฿59</p>
+                            <a href="#" class="btn">Buy Now</a>
+                    </div>
+                    <div class="top-box top-box-d animate__animated animate__flipInY">
+                            <h4>รับจัดขนมเบรค เริ่มต้นชุดละ</h4>
+                            <p class="price">฿39</p>
+                            <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </section>
+                <section class="boxes">
+                        <div class="box">
+                            <i class="fas fa-mobile-alt fa-4x"></i>
+                            <h3>083-4373083</h3>
+                        </div>
+                        <div class="box">
+                            <i class="fab fa-line fa-4x"></i>
+                            <h3>@soi5cafe</h3>
+                        </div>
+                        <div class="box">
+                            <i class="fab fa-facebook fa-4x"></i>
+                            <h3>Soi 5 Cafe</h3>
+                        </div>
+                        <div class="box">
+                            <i class="fab fa-instagram fa-4x"></i>
+                            <h3>@soi5_cafe</h3>
+                        </div>
+                        <div class="box">
+                            <i class="fab fa-twitter fa-4x"></i>
+                            <h3>@soi_5_cafe</h3>
+                        </div>
+                    </section>
+                    <!--Footer-->
+                    <footer>
+                            <p>Soi 5 Cafe &copy;2020 Phakpoom I. 6330901xxxx</p>
+                    </footer>
+    </div>
+    
+    <script>
+            function openSideMenu(){
+                document.getElementById('side-menu').style.width='250px';
+               
+            }
+            function closeSideMenu(){
+                document.getElementById('side-menu').style.width='0';
+            }
+        </script>
+</body>
+</html>
